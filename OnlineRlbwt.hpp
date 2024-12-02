@@ -86,7 +86,17 @@ namespace itmmti
         )
         {
             uint64_t idxM = drle_.insertRun(emPos_, ch);
-            emPos_ = drle_.rank(ch, idxM, emPos_, true);
+            // std::cout << idxM << "-" << emPos_ << std::endl;
+            if (ch == em_)
+            {
+                std::cout << "has a end" << std::endl;
+                emPos_ = 0;
+            }
+            else
+            {
+                emPos_ = drle_.rank(ch, idxM, emPos_, true);
+            }
+            // std::cout << idxM << "-" << emPos_ << std::endl;
         }
 
         /*!
@@ -211,6 +221,12 @@ namespace itmmti
             os << "Len with endmarker = " << getLenWithEndmarker() << std::endl;
             os << "emPos_ = " << emPos_ << ", em_ = " << em_ << std::endl;
             drle_.printDebugInfo(os);
+        }
+
+        void printDetailInfo()
+        {
+            std::cout << "---------- bwt -----------" << std::endl;
+            this->drle_.printDetailInfo();
         }
 
         bool checkDecompress(

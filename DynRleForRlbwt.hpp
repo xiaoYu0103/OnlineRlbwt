@@ -1707,6 +1707,23 @@ namespace itmmti
             }
         }
 
+        void printString(std::ostream &os) const noexcept
+        {
+            assert(isReady());
+
+            uint64_t pos = 0;
+            for (auto idxM = searchPosM(pos); idxM != BTreeNodeT::NOTFOUND; idxM = getNextIdxM(idxM))
+            {
+                const size_t exponent = getWeightFromIdxM(idxM);
+                char ch = getCharFromIdxM(idxM);
+                for (size_t i = 0; i < exponent; ++i)
+                {
+                    os << "Character: " << ch << " (ASCII: " << static_cast<int>(ch) << ")\n"; // 打印字符和它的ASCII值
+                }
+            }
+            os << std::endl;
+        }
+
     public:
         //////////////////////////////// Public search functions
         /*!
@@ -3845,6 +3862,11 @@ namespace itmmti
                 //   }
                 // }
             }
+        }
+
+        void printDetailInfo()
+        {
+            this->printString(std::cout);
         }
     };
 } // namespace itmmti
