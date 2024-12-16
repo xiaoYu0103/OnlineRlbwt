@@ -41,8 +41,10 @@ namespace itmmti
 
     private:
         DynRle drle_;
-        uint64_t emPos_; //!< Current position (0base) of end marker.
-        CharT em_;       //!< End marker. It is used only when bwt[emPos_] is accessed (and does not matter if em_ appears in the input text).
+        uint64_t emPos_;       //!< Current position (0base) of end marker.
+        CharT em_;             //!< End marker. It is used only when bwt[emPos_] is accessed (and does not matter if em_ appears in the input text).
+        uint64_t num_em_;      // the number of em_
+        uint64_t sap_s, sap_e; // cur sap interval [sap_s,sap_e]
 
     public:
         OnlineRlbwt(
@@ -52,6 +54,9 @@ namespace itmmti
                 emPos_(0),
                 em_(em)
         {
+            num_em_ = 1;
+            sap_s = 0;
+            sap_e = 0;
         }
 
         /*!
@@ -86,17 +91,69 @@ namespace itmmti
         )
         {
             uint64_t idxM = drle_.insertRun(emPos_, ch);
-            // std::cout << idxM << "-" << emPos_ << std::endl;
             if (ch == em_)
             {
-                std::cout << "has a end" << std::endl;
+                // std::cout << "has a end" << std::endl;
                 emPos_ = 0;
             }
             else
             {
                 emPos_ = drle_.rank(ch, idxM, emPos_, true);
             }
-            // std::cout << idxM << "-" << emPos_ << std::endl;
+        }
+
+        void optExtend(
+            const CharT ch // !< Character to append.
+        )
+        {
+            // std::cout << "(sap_s: " << sap_s << " - sap_e: " << sap_e << ")" << std::endl;
+            // 插入当前元素
+            if (sap_s == sap_e) // 代表没有后缀与目标后缀完全相同,只有一个地方可以插入
+            {
+                uint64_t tmp_sap_s = sap_s;
+                drle_.insertRun(tmp_sap_s, ch);
+            }
+            else
+            {
+                // 计算有趣区间内是否有插入的符号
+                uint64_t s_n = (sap_s == 0 ? 0 : drle_.rank(ch, sap_s - 1, false));
+                uint64_t e_n = drle_.rank(ch, sap_e, false);
+                // std::cout << "(s_n: " << s_n << " - e_n: " << e_n << ")" << std::endl;
+                if (e_n - s_n > 0) // 有趣区间内已经存在插入的那个符号
+                {
+                    auto pos = drle_.select(ch, s_n + 1);
+                    drle_.insertRun(pos, ch);
+                }
+                else // 有趣区间内不存在插入的那个符号
+                {
+                    // 插入原则是不从中打断别的run
+                    auto tmp = sap_s;
+                    drle_.insertRun(tmp, ch);
+                }
+            }
+            // 计算下一个有趣区间
+            if (ch == em_)
+            {
+                num_em_ += 1;
+                sap_s = 0;
+                sap_e = num_em_ - 1;
+            }
+            else
+            {
+                if (sap_s == sap_e)
+                {
+                    auto tmp = drle_.rank(ch, sap_s, true);
+                    sap_s = tmp;
+                    sap_e = tmp;
+                }
+                else
+                {
+                    // std::cout << "-(sap_s: " << sap_s << " - sap_e: " << sap_e << ")" << std::endl;
+                    sap_s = drle_.rank(ch, sap_s - 1, true) + 1;
+                    sap_e = drle_.rank(ch, sap_e, true);
+                    // std::cout << "+(sap_s: " << sap_s << " - sap_e: " << sap_e << ")" << std::endl;
+                }
+            }
         }
 
         /*!
@@ -226,7 +283,14 @@ namespace itmmti
         void printDetailInfo()
         {
             std::cout << "---------- bwt -----------" << std::endl;
+            // std::cout << drle_.rank('p', 5, true) << std::endl;
             this->drle_.printDetailInfo();
+            std::cout << std::endl;
+        }
+
+        void writeBWT(std::ofstream &ofs)
+        {
+            this->drle_.printString(ofs);
         }
 
         bool checkDecompress(

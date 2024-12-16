@@ -1575,12 +1575,55 @@ namespace itmmti
         ) const noexcept
         {
             assert(isReady());
-            assert(pos < srootM_.root_->getSumOfWeight());
-
+            // assert(pos < srootM_.root_->getSumOfWeight());
+            if (pos == (0 - 1))
+            {
+                // std::cout << "---------go" << std::endl;
+                pos = 0;
+                const auto idxM = searchPosM(pos); // pos is modified to relative pos
+                // std::cout << idxM << pos << std::endl;
+                return rankNegative(ch, idxM, pos);
+            }
+            if (pos >= srootM_.root_->getSumOfWeight())
+            {
+                pos = srootM_.root_->getSumOfWeight() - 1;
+            }
             const auto idxM = searchPosM(pos); // pos is modified to relative pos
             return rank(ch, idxM, pos, calcTotalRank);
         }
 
+        uint64_t rankNegative(
+            const uint64_t ch,
+            const uint64_t idxM,
+            const uint64_t relativePos) const
+        {
+            // {//debug
+            //   std::cerr << __func__ << ": ch = " << ch << ", idxM = " << idxM << ", relativePos = " << relativePos << std::endl;
+            // }
+            assert(isValidIdxM(idxM));
+            assert(relativePos < calcSumOfWeightOfBtmM(idxM / kBtmBM));
+            const auto chNow = getCharFromIdxM(idxM);
+            uint64_t ret = 0;
+            uint64_t idxS;
+            if (ch == chNow)
+            {
+                ret = relativePos;
+                idxS = idxM2S(idxM);
+            }
+            else
+            {
+                const auto *retRootS = searchCharA(ch);
+                if (retRootS->isDummy() || getCharFromNodeS(retRootS) != ch)
+                {
+                    return 0;
+                }
+                idxS = calcPredIdxSFromIdxM(retRootS, ch, idxM);
+            }
+            ret += calcSumOfWeightOfBtmS(idxS / kBtmBS, 0, (idxS % kBtmBS) + (ch != chNow)); // TODO: calc sum of weights for smaller part
+            BTreeNodeT *root;
+            ret += getParentFromBtmS(idxS / kBtmBS)->calcPSum(getIdxInSiblingFromBtmS(idxS / kBtmBS), root);
+            return ret + root->getParent()->calcPSum(root->getIdxInSibling());
+        }
         /*!
          * @brief Variant of rank function, where pos is specified by 'idxM' and 'relativePos'.
          */
@@ -1596,7 +1639,6 @@ namespace itmmti
             // }
             assert(isValidIdxM(idxM));
             assert(relativePos < calcSumOfWeightOfBtmM(idxM / kBtmBM));
-
             const auto chNow = getCharFromIdxM(idxM);
             uint64_t ret = 0;
             uint64_t idxS;
@@ -1710,7 +1752,6 @@ namespace itmmti
         void printString(std::ostream &os) const noexcept
         {
             assert(isReady());
-
             uint64_t pos = 0;
             for (auto idxM = searchPosM(pos); idxM != BTreeNodeT::NOTFOUND; idxM = getNextIdxM(idxM))
             {
@@ -1718,10 +1759,16 @@ namespace itmmti
                 char ch = getCharFromIdxM(idxM);
                 for (size_t i = 0; i < exponent; ++i)
                 {
-                    os << "Character: " << ch << " (ASCII: " << static_cast<int>(ch) << ")\n"; // 打印字符和它的ASCII值
+                    if (static_cast<unsigned char>(ch) == 0)
+                    {
+                        os << '$';
+                    }
+                    else
+                    {
+                        os << ch; // 打印字符和它的ASCII值
+                    }
                 }
             }
-            os << std::endl;
         }
 
     public:
