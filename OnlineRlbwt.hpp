@@ -127,8 +127,7 @@ namespace itmmti
                 else // 有趣区间内不存在插入的那个符号
                 {
                     // 插入原则是不从中打断别的run
-                    auto tmp = sap_s;
-                    drle_.insertRun(tmp, ch);
+                    drle_.insertOptRun(sap_s, sap_e, ch);
                 }
             }
             // 计算下一个有趣区间
@@ -148,10 +147,8 @@ namespace itmmti
                 }
                 else
                 {
-                    // std::cout << "-(sap_s: " << sap_s << " - sap_e: " << sap_e << ")" << std::endl;
                     sap_s = drle_.rank(ch, sap_s - 1, true) + 1;
                     sap_e = drle_.rank(ch, sap_e, true);
-                    // std::cout << "+(sap_s: " << sap_s << " - sap_e: " << sap_e << ")" << std::endl;
                 }
             }
         }

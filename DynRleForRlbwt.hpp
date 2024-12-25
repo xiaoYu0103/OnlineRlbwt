@@ -3419,6 +3419,38 @@ namespace itmmti
             return insertRun(tmp, ch);
         }
 
+        uint64_t insertOptRun(
+            uint64_t sap_s,
+            uint64_t sap_e,
+            const CharT ch)
+        {
+            // first:寻找sap_s-1的位置是不是正好是ch
+            // std::cout << "sap_s: " << sap_s << std::endl;
+            uint64_t idxM = 0;
+            uint64_t pos = 0;
+            if (sap_s != 0)
+            {
+                uint64_t pos = sap_s - 1;
+                idxM = searchPosM(pos);
+                auto chNow = getCharFromIdxM(idxM);
+                if (ch == chNow) // 说明sap_s-1的那个位置正好是ch，那合并一下就行
+                {
+                    changeWeight(idxM, 1);
+                    return idxM;
+                }
+            }
+            // second:判断sap_s这个位置的run有没有超过sap_e
+            pos = sap_s;
+            idxM = searchPosM(pos);
+            auto weight = getWeightFromIdxM(idxM);
+            if (sap_s - pos + weight - 1 < sap_e)
+            {
+                return insertRunAfter(idxM, ch);
+            }
+            pos = sap_s;
+            return insertRun(pos, ch);
+        }
+
     public:
         //////////////////////////////// statistics
         size_t calcMemBytesMTree() const noexcept

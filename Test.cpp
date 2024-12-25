@@ -25,9 +25,6 @@ int main(int argc, char *argv[])
 
     auto t1 = std::chrono::high_resolution_clock::now();
 
-    const size_t step = 1000000;
-    size_t last_step = 0;
-
     using BTreeNodeT = BTreeNode<32>;
     using BtmNodeMT = BtmNodeM_StepCode<BTreeNodeT, 32>;
     using BtmMInfoT = BtmMInfo_BlockVec<BtmNodeMT, 512>;
@@ -36,12 +33,9 @@ int main(int argc, char *argv[])
     using RynRleT = DynRleForRlbwt<WBitsBlockVec<1024>, Samples_Null, BtmMInfoT, BtmSInfoT>;
     OnlineRlbwt<RynRleT> rlbwt(1);
 
+    std::ifstream ifs(in);
     char c; // assume that the input character fits in char.
     unsigned char uc;
-    std::ifstream ifs(in);
-    ifs.seekg(0, std::ios::end);      // 将文件指针移动到文件末尾
-    size_t total_chars = ifs.tellg(); // 获取文件的总字符数
-    ifs.seekg(0, std::ios::beg);      // 将文件指针重置到文件开头
 
     while (ifs.peek() != std::ios::traits_type::eof())
     {
@@ -57,6 +51,14 @@ int main(int argc, char *argv[])
         // rlbwt.printDetailInfo();
     }
 
+    ifs.close();
+    {
+        auto t2 = std::chrono::high_resolution_clock::now();
+        double sec = std::chrono::duration_cast<std::chrono::seconds>(t2 - t1).count();
+        std::cout << "RLBWT construction done. " << sec << " sec" << std::endl;
+    }
+    rlbwt.printStatistics(std::cout, false);
+
     if (!(out.empty()))
     {
         std::ofstream ofs(out, std::ios::out);
@@ -67,11 +69,6 @@ int main(int argc, char *argv[])
         double sec = std::chrono::duration_cast<std::chrono::seconds>(t2 - t1).count();
         std::cout << "RLBWT write done. " << sec << " sec" << std::endl;
     }
-    ifs.close();
-    {
-        auto t2 = std::chrono::high_resolution_clock::now();
-        double sec = std::chrono::duration_cast<std::chrono::seconds>(t2 - t1).count();
-        std::cout << "RLBWT construction done. " << sec << " sec" << std::endl;
-    }
+
     std::cout << "over" << std::endl;
 }
