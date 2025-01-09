@@ -1,0 +1,73 @@
+===================extend over=======================
+cur_ns:1000  cur_n:1501713
+Elapsed time in seconds: 1288 milliseconds
+===================extend over=======================
+cur_ns:2000  cur_n:3017988
+Elapsed time in seconds: 2771 milliseconds
+===================extend over=======================
+cur_ns:3000  cur_n:4520985
+Elapsed time in seconds: 4285 milliseconds
+===================extend over=======================
+cur_ns:4000  cur_n:6014908
+Elapsed time in seconds: 5790 milliseconds
+===================extend over=======================
+cur_ns:5000  cur_n:7498286
+Elapsed time in seconds: 7270 milliseconds
+===================extend over=======================
+cur_ns:6000  cur_n:9003340
+Elapsed time in seconds: 8783 milliseconds
+===================extend over=======================
+cur_ns:7000  cur_n:10510280
+Elapsed time in seconds: 10599 milliseconds
+===================extend over=======================
+cur_ns:8000  cur_n:12004678
+Elapsed time in seconds: 12009 milliseconds
+===================extend over=======================
+cur_ns:9000  cur_n:13515772
+Elapsed time in seconds: 13745 milliseconds
+===================extend over=======================
+cur_ns:10000  cur_n:15026016
+Elapsed time in seconds: 15382 milliseconds
+===================extend over=======================
+cur_ns:11000  cur_n:16515417
+Elapsed time in seconds: 16987 milliseconds
+===================extend over=======================
+cur_ns:12000  cur_n:18023301
+Elapsed time in seconds: 18473 milliseconds
+===================extend over=======================
+cur_ns:13000  cur_n:19519972
+Elapsed time in seconds: 20154 milliseconds
+===================extend over=======================
+cur_ns:14000  cur_n:21027135
+Elapsed time in seconds: 21970 milliseconds
+===================extend over=======================
+cur_ns:15000  cur_n:22537714
+Elapsed time in seconds: 23743 milliseconds
+===================extend over=======================
+cur_ns:16000  cur_n:24040043
+Elapsed time in seconds: 25346 milliseconds
+===================extend over=======================
+cur_ns:16741  cur_n:25159064
+Elapsed time in seconds: 26583 milliseconds
+OnlineRlbwt object (0x7fff1782b260) printStatistics(1) BEGIN
+Len with endmarker = 25159065
+emPos_ = 0, em_ = 1
+DynRleForRlbwt object (0x7fff1782b260) printStatistics(1) BEGIN
+TotalLen = 25159064, #Runs = 535160, Alphabet Size = 5
+BTreeNode arity kB = 32, BtmNode arity kBtmBM = 32, BtmNode arity kBtmBS = 8
+MTree bottom array size = 20203, capacity = 20480
+STree bottom array size = 81232, capacity = 81920
+Total: 8112912 bytes = 7922.77 KiB = 7.73708 MiB
+MTree: 418880 bytes, OccuRate = 85.1136 (= 100*20972/24640)
+ATree: 544 bytes, OccuRate = 18.75 (= 100*6/32)
+STree: 1680960 bytes, OccuRate = 85.272 (= 100*84317/98880)
+BtmNodeM: 1444320 bytes = 1410.47 KiB = 1.37741 MiB, OccuRate = 82.7787 (= 100*535161/646496)
+BtmNodeS: 1311768 bytes = 1281.02 KiB = 1.251 MiB, OccuRate = 82.3513 (= 100*535165/649856)
+BtmNode: 2756088 bytes = 2691.49 KiB = 2.62841 MiB, OccuRate = 82.5645 (= 100*1070326/1296352)
+Links: 3256416 bytes = 3180.09 KiB = 3.10556 MiB
+Samples: 0 bytes = 0 KiB = 0 MiB
+---------------- additional details ----------------
+Memory for weights: 1054664 bytes = 1029.95 KiB = 1.00581 MiB
+Over reserved: 41424 bytes = 40.4531 KiB = 0.039505 MiB
+DynRleForRlbwt object (0x7fff1782b260) printStatistics(1) END
+OnlineRlbwt object (0x7fff1782b260) printStatistics(1) END

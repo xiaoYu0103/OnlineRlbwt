@@ -1,0 +1,829 @@
+===================extend over=======================
+cur_ns:1000  cur_n:1076898
+Elapsed time in seconds: 609 milliseconds
+===================extend over=======================
+cur_ns:2000  cur_n:2153523
+Elapsed time in seconds: 1288 milliseconds
+===================extend over=======================
+cur_ns:3000  cur_n:3229803
+Elapsed time in seconds: 2075 milliseconds
+===================extend over=======================
+cur_ns:4000  cur_n:4306262
+Elapsed time in seconds: 2873 milliseconds
+===================extend over=======================
+cur_ns:5000  cur_n:5377922
+Elapsed time in seconds: 3713 milliseconds
+===================extend over=======================
+cur_ns:6000  cur_n:6454737
+Elapsed time in seconds: 4553 milliseconds
+===================extend over=======================
+cur_ns:7000  cur_n:7531446
+Elapsed time in seconds: 5438 milliseconds
+===================extend over=======================
+cur_ns:8000  cur_n:8606959
+Elapsed time in seconds: 6353 milliseconds
+===================extend over=======================
+cur_ns:9000  cur_n:9685566
+Elapsed time in seconds: 7283 milliseconds
+===================extend over=======================
+cur_ns:10000  cur_n:10761781
+Elapsed time in seconds: 8238 milliseconds
+===================extend over=======================
+cur_ns:11000  cur_n:11835304
+Elapsed time in seconds: 9198 milliseconds
+===================extend over=======================
+cur_ns:12000  cur_n:12913233
+Elapsed time in seconds: 10194 milliseconds
+===================extend over=======================
+cur_ns:13000  cur_n:13989660
+Elapsed time in seconds: 11207 milliseconds
+===================extend over=======================
+cur_ns:14000  cur_n:15065720
+Elapsed time in seconds: 12222 milliseconds
+===================extend over=======================
+cur_ns:15000  cur_n:16140094
+Elapsed time in seconds: 13267 milliseconds
+===================extend over=======================
+cur_ns:16000  cur_n:17214308
+Elapsed time in seconds: 14339 milliseconds
+===================extend over=======================
+cur_ns:17000  cur_n:18289707
+Elapsed time in seconds: 15413 milliseconds
+===================extend over=======================
+cur_ns:18000  cur_n:19363808
+Elapsed time in seconds: 16488 milliseconds
+===================extend over=======================
+cur_ns:19000  cur_n:20442014
+Elapsed time in seconds: 17550 milliseconds
+===================extend over=======================
+cur_ns:20000  cur_n:21517149
+Elapsed time in seconds: 18648 milliseconds
+===================extend over=======================
+cur_ns:21000  cur_n:22591149
+Elapsed time in seconds: 19718 milliseconds
+===================extend over=======================
+cur_ns:22000  cur_n:23672265
+Elapsed time in seconds: 20846 milliseconds
+===================extend over=======================
+cur_ns:23000  cur_n:24745692
+Elapsed time in seconds: 21976 milliseconds
+===================extend over=======================
+cur_ns:24000  cur_n:25820973
+Elapsed time in seconds: 23226 milliseconds
+===================extend over=======================
+cur_ns:25000  cur_n:26893326
+Elapsed time in seconds: 24403 milliseconds
+===================extend over=======================
+cur_ns:26000  cur_n:27968087
+Elapsed time in seconds: 25545 milliseconds
+===================extend over=======================
+cur_ns:27000  cur_n:29043325
+Elapsed time in seconds: 26713 milliseconds
+===================extend over=======================
+cur_ns:28000  cur_n:30118295
+Elapsed time in seconds: 27875 milliseconds
+===================extend over=======================
+cur_ns:29000  cur_n:31193421
+Elapsed time in seconds: 29050 milliseconds
+===================extend over=======================
+cur_ns:30000  cur_n:32269849
+Elapsed time in seconds: 30259 milliseconds
+===================extend over=======================
+cur_ns:31000  cur_n:33341780
+Elapsed time in seconds: 31470 milliseconds
+===================extend over=======================
+cur_ns:32000  cur_n:34410816
+Elapsed time in seconds: 32678 milliseconds
+===================extend over=======================
+cur_ns:33000  cur_n:35488693
+Elapsed time in seconds: 33902 milliseconds
+===================extend over=======================
+cur_ns:34000  cur_n:36562528
+Elapsed time in seconds: 35108 milliseconds
+===================extend over=======================
+cur_ns:35000  cur_n:37639011
+Elapsed time in seconds: 36345 milliseconds
+===================extend over=======================
+cur_ns:36000  cur_n:38714679
+Elapsed time in seconds: 37589 milliseconds
+===================extend over=======================
+cur_ns:37000  cur_n:39785573
+Elapsed time in seconds: 38856 milliseconds
+===================extend over=======================
+cur_ns:38000  cur_n:40857607
+Elapsed time in seconds: 40113 milliseconds
+===================extend over=======================
+cur_ns:39000  cur_n:41931781
+Elapsed time in seconds: 41409 milliseconds
+===================extend over=======================
+cur_ns:40000  cur_n:43010456
+Elapsed time in seconds: 42712 milliseconds
+===================extend over=======================
+cur_ns:41000  cur_n:44087303
+Elapsed time in seconds: 44019 milliseconds
+===================extend over=======================
+cur_ns:42000  cur_n:45162461
+Elapsed time in seconds: 45377 milliseconds
+===================extend over=======================
+cur_ns:43000  cur_n:46238197
+Elapsed time in seconds: 46713 milliseconds
+===================extend over=======================
+cur_ns:44000  cur_n:47312701
+Elapsed time in seconds: 48032 milliseconds
+===================extend over=======================
+cur_ns:45000  cur_n:48387336
+Elapsed time in seconds: 49381 milliseconds
+===================extend over=======================
+cur_ns:46000  cur_n:49463831
+Elapsed time in seconds: 50788 milliseconds
+===================extend over=======================
+cur_ns:47000  cur_n:50538454
+Elapsed time in seconds: 52173 milliseconds
+===================extend over=======================
+cur_ns:48000  cur_n:51613019
+Elapsed time in seconds: 53502 milliseconds
+===================extend over=======================
+cur_ns:49000  cur_n:52689454
+Elapsed time in seconds: 54877 milliseconds
+===================extend over=======================
+cur_ns:50000  cur_n:53766811
+Elapsed time in seconds: 56261 milliseconds
+===================extend over=======================
+cur_ns:51000  cur_n:54839690
+Elapsed time in seconds: 57654 milliseconds
+===================extend over=======================
+cur_ns:52000  cur_n:55911991
+Elapsed time in seconds: 59044 milliseconds
+===================extend over=======================
+cur_ns:53000  cur_n:56988383
+Elapsed time in seconds: 60431 milliseconds
+===================extend over=======================
+cur_ns:54000  cur_n:58060149
+Elapsed time in seconds: 61809 milliseconds
+===================extend over=======================
+cur_ns:55000  cur_n:59137876
+Elapsed time in seconds: 63198 milliseconds
+===================extend over=======================
+cur_ns:56000  cur_n:60214646
+Elapsed time in seconds: 64622 milliseconds
+===================extend over=======================
+cur_ns:57000  cur_n:61289844
+Elapsed time in seconds: 66054 milliseconds
+===================extend over=======================
+cur_ns:58000  cur_n:62368288
+Elapsed time in seconds: 67462 milliseconds
+===================extend over=======================
+cur_ns:59000  cur_n:63441022
+Elapsed time in seconds: 68873 milliseconds
+===================extend over=======================
+cur_ns:60000  cur_n:64517486
+Elapsed time in seconds: 70337 milliseconds
+===================extend over=======================
+cur_ns:61000  cur_n:65600844
+Elapsed time in seconds: 71790 milliseconds
+===================extend over=======================
+cur_ns:62000  cur_n:66677684
+Elapsed time in seconds: 73224 milliseconds
+===================extend over=======================
+cur_ns:63000  cur_n:67753124
+Elapsed time in seconds: 74684 milliseconds
+===================extend over=======================
+cur_ns:64000  cur_n:68828606
+Elapsed time in seconds: 76152 milliseconds
+===================extend over=======================
+cur_ns:65000  cur_n:69903104
+Elapsed time in seconds: 77623 milliseconds
+===================extend over=======================
+cur_ns:66000  cur_n:70979343
+Elapsed time in seconds: 79054 milliseconds
+===================extend over=======================
+cur_ns:67000  cur_n:72059294
+Elapsed time in seconds: 80544 milliseconds
+===================extend over=======================
+cur_ns:68000  cur_n:73133928
+Elapsed time in seconds: 82021 milliseconds
+===================extend over=======================
+cur_ns:69000  cur_n:74207343
+Elapsed time in seconds: 83515 milliseconds
+===================extend over=======================
+cur_ns:70000  cur_n:75283789
+Elapsed time in seconds: 85025 milliseconds
+===================extend over=======================
+cur_ns:71000  cur_n:76358570
+Elapsed time in seconds: 86521 milliseconds
+===================extend over=======================
+cur_ns:72000  cur_n:77435789
+Elapsed time in seconds: 88012 milliseconds
+===================extend over=======================
+cur_ns:73000  cur_n:78512111
+Elapsed time in seconds: 89498 milliseconds
+===================extend over=======================
+cur_ns:74000  cur_n:79587227
+Elapsed time in seconds: 91014 milliseconds
+===================extend over=======================
+cur_ns:75000  cur_n:80661588
+Elapsed time in seconds: 92536 milliseconds
+===================extend over=======================
+cur_ns:76000  cur_n:81735586
+Elapsed time in seconds: 94069 milliseconds
+===================extend over=======================
+cur_ns:77000  cur_n:82811934
+Elapsed time in seconds: 95605 milliseconds
+===================extend over=======================
+cur_ns:78000  cur_n:83888345
+Elapsed time in seconds: 97150 milliseconds
+===================extend over=======================
+cur_ns:79000  cur_n:84964263
+Elapsed time in seconds: 98645 milliseconds
+===================extend over=======================
+cur_ns:80000  cur_n:86042305
+Elapsed time in seconds: 100196 milliseconds
+===================extend over=======================
+cur_ns:81000  cur_n:87118654
+Elapsed time in seconds: 101736 milliseconds
+===================extend over=======================
+cur_ns:82000  cur_n:88194815
+Elapsed time in seconds: 103254 milliseconds
+===================extend over=======================
+cur_ns:83000  cur_n:89267652
+Elapsed time in seconds: 104773 milliseconds
+===================extend over=======================
+cur_ns:84000  cur_n:90343573
+Elapsed time in seconds: 106299 milliseconds
+===================extend over=======================
+cur_ns:85000  cur_n:91423018
+Elapsed time in seconds: 107827 milliseconds
+===================extend over=======================
+cur_ns:86000  cur_n:92497240
+Elapsed time in seconds: 109352 milliseconds
+===================extend over=======================
+cur_ns:87000  cur_n:93572691
+Elapsed time in seconds: 110886 milliseconds
+===================extend over=======================
+cur_ns:88000  cur_n:94649428
+Elapsed time in seconds: 112433 milliseconds
+===================extend over=======================
+cur_ns:89000  cur_n:95726179
+Elapsed time in seconds: 113948 milliseconds
+===================extend over=======================
+cur_ns:90000  cur_n:96803044
+Elapsed time in seconds: 115559 milliseconds
+===================extend over=======================
+cur_ns:91000  cur_n:97877845
+Elapsed time in seconds: 117159 milliseconds
+===================extend over=======================
+cur_ns:92000  cur_n:98956498
+Elapsed time in seconds: 118723 milliseconds
+===================extend over=======================
+cur_ns:93000  cur_n:100033527
+Elapsed time in seconds: 120336 milliseconds
+===================extend over=======================
+cur_ns:94000  cur_n:101112979
+Elapsed time in seconds: 121934 milliseconds
+===================extend over=======================
+cur_ns:95000  cur_n:102190081
+Elapsed time in seconds: 123555 milliseconds
+===================extend over=======================
+cur_ns:96000  cur_n:103267108
+Elapsed time in seconds: 125146 milliseconds
+===================extend over=======================
+cur_ns:97000  cur_n:104344182
+Elapsed time in seconds: 126781 milliseconds
+===================extend over=======================
+cur_ns:98000  cur_n:105417186
+Elapsed time in seconds: 128388 milliseconds
+===================extend over=======================
+cur_ns:99000  cur_n:106492648
+Elapsed time in seconds: 130035 milliseconds
+===================extend over=======================
+cur_ns:100000  cur_n:107570564
+Elapsed time in seconds: 131653 milliseconds
+===================extend over=======================
+cur_ns:101000  cur_n:108648541
+Elapsed time in seconds: 133267 milliseconds
+===================extend over=======================
+cur_ns:102000  cur_n:109725563
+Elapsed time in seconds: 134913 milliseconds
+===================extend over=======================
+cur_ns:103000  cur_n:110797464
+Elapsed time in seconds: 136555 milliseconds
+===================extend over=======================
+cur_ns:104000  cur_n:111874965
+Elapsed time in seconds: 138140 milliseconds
+===================extend over=======================
+cur_ns:105000  cur_n:112948993
+Elapsed time in seconds: 139761 milliseconds
+===================extend over=======================
+cur_ns:106000  cur_n:114021140
+Elapsed time in seconds: 141379 milliseconds
+===================extend over=======================
+cur_ns:107000  cur_n:115098641
+Elapsed time in seconds: 142994 milliseconds
+===================extend over=======================
+cur_ns:108000  cur_n:116175747
+Elapsed time in seconds: 144579 milliseconds
+===================extend over=======================
+cur_ns:109000  cur_n:117252442
+Elapsed time in seconds: 146202 milliseconds
+===================extend over=======================
+cur_ns:110000  cur_n:118329340
+Elapsed time in seconds: 147835 milliseconds
+===================extend over=======================
+cur_ns:111000  cur_n:119405347
+Elapsed time in seconds: 149430 milliseconds
+===================extend over=======================
+cur_ns:112000  cur_n:120480537
+Elapsed time in seconds: 151048 milliseconds
+===================extend over=======================
+cur_ns:113000  cur_n:121559016
+Elapsed time in seconds: 152689 milliseconds
+===================extend over=======================
+cur_ns:114000  cur_n:122636960
+Elapsed time in seconds: 154315 milliseconds
+===================extend over=======================
+cur_ns:115000  cur_n:123710452
+Elapsed time in seconds: 155943 milliseconds
+===================extend over=======================
+cur_ns:116000  cur_n:124786617
+Elapsed time in seconds: 157579 milliseconds
+===================extend over=======================
+cur_ns:117000  cur_n:125857678
+Elapsed time in seconds: 159184 milliseconds
+===================extend over=======================
+cur_ns:118000  cur_n:126934255
+Elapsed time in seconds: 160823 milliseconds
+===================extend over=======================
+cur_ns:119000  cur_n:128011918
+Elapsed time in seconds: 162485 milliseconds
+===================extend over=======================
+cur_ns:120000  cur_n:129090263
+Elapsed time in seconds: 164139 milliseconds
+===================extend over=======================
+cur_ns:121000  cur_n:130166138
+Elapsed time in seconds: 165861 milliseconds
+===================extend over=======================
+cur_ns:122000  cur_n:131242286
+Elapsed time in seconds: 167570 milliseconds
+===================extend over=======================
+cur_ns:123000  cur_n:132313133
+Elapsed time in seconds: 169271 milliseconds
+===================extend over=======================
+cur_ns:124000  cur_n:133390104
+Elapsed time in seconds: 170984 milliseconds
+===================extend over=======================
+cur_ns:125000  cur_n:134467786
+Elapsed time in seconds: 172716 milliseconds
+===================extend over=======================
+cur_ns:126000  cur_n:135542688
+Elapsed time in seconds: 174415 milliseconds
+===================extend over=======================
+cur_ns:127000  cur_n:136618342
+Elapsed time in seconds: 176134 milliseconds
+===================extend over=======================
+cur_ns:128000  cur_n:137694422
+Elapsed time in seconds: 177853 milliseconds
+===================extend over=======================
+cur_ns:129000  cur_n:138770681
+Elapsed time in seconds: 179520 milliseconds
+===================extend over=======================
+cur_ns:130000  cur_n:139846484
+Elapsed time in seconds: 181205 milliseconds
+===================extend over=======================
+cur_ns:131000  cur_n:140921275
+Elapsed time in seconds: 182912 milliseconds
+===================extend over=======================
+cur_ns:132000  cur_n:141996693
+Elapsed time in seconds: 184600 milliseconds
+===================extend over=======================
+cur_ns:133000  cur_n:143070780
+Elapsed time in seconds: 186276 milliseconds
+===================extend over=======================
+cur_ns:134000  cur_n:144147363
+Elapsed time in seconds: 187986 milliseconds
+===================extend over=======================
+cur_ns:135000  cur_n:145225082
+Elapsed time in seconds: 189646 milliseconds
+===================extend over=======================
+cur_ns:136000  cur_n:146303370
+Elapsed time in seconds: 191354 milliseconds
+===================extend over=======================
+cur_ns:137000  cur_n:147379906
+Elapsed time in seconds: 193081 milliseconds
+===================extend over=======================
+cur_ns:138000  cur_n:148452927
+Elapsed time in seconds: 194753 milliseconds
+===================extend over=======================
+cur_ns:139000  cur_n:149526059
+Elapsed time in seconds: 196497 milliseconds
+===================extend over=======================
+cur_ns:140000  cur_n:150600070
+Elapsed time in seconds: 198231 milliseconds
+===================extend over=======================
+cur_ns:141000  cur_n:151674532
+Elapsed time in seconds: 199919 milliseconds
+===================extend over=======================
+cur_ns:142000  cur_n:152751975
+Elapsed time in seconds: 201625 milliseconds
+===================extend over=======================
+cur_ns:143000  cur_n:153828223
+Elapsed time in seconds: 203333 milliseconds
+===================extend over=======================
+cur_ns:144000  cur_n:154906559
+Elapsed time in seconds: 205016 milliseconds
+===================extend over=======================
+cur_ns:145000  cur_n:155982396
+Elapsed time in seconds: 206744 milliseconds
+===================extend over=======================
+cur_ns:146000  cur_n:157056292
+Elapsed time in seconds: 208458 milliseconds
+===================extend over=======================
+cur_ns:147000  cur_n:158135188
+Elapsed time in seconds: 210161 milliseconds
+===================extend over=======================
+cur_ns:148000  cur_n:159210715
+Elapsed time in seconds: 211879 milliseconds
+===================extend over=======================
+cur_ns:149000  cur_n:160284486
+Elapsed time in seconds: 213602 milliseconds
+===================extend over=======================
+cur_ns:150000  cur_n:161359713
+Elapsed time in seconds: 215326 milliseconds
+===================extend over=======================
+cur_ns:151000  cur_n:162434192
+Elapsed time in seconds: 217044 milliseconds
+===================extend over=======================
+cur_ns:152000  cur_n:163510500
+Elapsed time in seconds: 218782 milliseconds
+===================extend over=======================
+cur_ns:153000  cur_n:164585356
+Elapsed time in seconds: 220500 milliseconds
+===================extend over=======================
+cur_ns:154000  cur_n:165658181
+Elapsed time in seconds: 222211 milliseconds
+===================extend over=======================
+cur_ns:155000  cur_n:166731905
+Elapsed time in seconds: 223918 milliseconds
+===================extend over=======================
+cur_ns:156000  cur_n:167809769
+Elapsed time in seconds: 225646 milliseconds
+===================extend over=======================
+cur_ns:157000  cur_n:168885902
+Elapsed time in seconds: 227386 milliseconds
+===================extend over=======================
+cur_ns:158000  cur_n:169960699
+Elapsed time in seconds: 229133 milliseconds
+===================extend over=======================
+cur_ns:159000  cur_n:171033110
+Elapsed time in seconds: 230899 milliseconds
+===================extend over=======================
+cur_ns:160000  cur_n:172110016
+Elapsed time in seconds: 232623 milliseconds
+===================extend over=======================
+cur_ns:161000  cur_n:173186551
+Elapsed time in seconds: 234306 milliseconds
+===================extend over=======================
+cur_ns:162000  cur_n:174261552
+Elapsed time in seconds: 235996 milliseconds
+===================extend over=======================
+cur_ns:163000  cur_n:175337955
+Elapsed time in seconds: 237717 milliseconds
+===================extend over=======================
+cur_ns:164000  cur_n:176415067
+Elapsed time in seconds: 239402 milliseconds
+===================extend over=======================
+cur_ns:165000  cur_n:177490014
+Elapsed time in seconds: 241132 milliseconds
+===================extend over=======================
+cur_ns:166000  cur_n:178565151
+Elapsed time in seconds: 242882 milliseconds
+===================extend over=======================
+cur_ns:167000  cur_n:179639974
+Elapsed time in seconds: 244574 milliseconds
+===================extend over=======================
+cur_ns:168000  cur_n:180723202
+Elapsed time in seconds: 246324 milliseconds
+===================extend over=======================
+cur_ns:169000  cur_n:181798558
+Elapsed time in seconds: 248057 milliseconds
+===================extend over=======================
+cur_ns:170000  cur_n:182875178
+Elapsed time in seconds: 249757 milliseconds
+===================extend over=======================
+cur_ns:171000  cur_n:183950481
+Elapsed time in seconds: 251472 milliseconds
+===================extend over=======================
+cur_ns:172000  cur_n:185025660
+Elapsed time in seconds: 253230 milliseconds
+===================extend over=======================
+cur_ns:173000  cur_n:186100203
+Elapsed time in seconds: 254951 milliseconds
+===================extend over=======================
+cur_ns:174000  cur_n:187175201
+Elapsed time in seconds: 256764 milliseconds
+===================extend over=======================
+cur_ns:175000  cur_n:188251095
+Elapsed time in seconds: 258531 milliseconds
+===================extend over=======================
+cur_ns:176000  cur_n:189325244
+Elapsed time in seconds: 260275 milliseconds
+===================extend over=======================
+cur_ns:177000  cur_n:190399020
+Elapsed time in seconds: 262069 milliseconds
+===================extend over=======================
+cur_ns:178000  cur_n:191474591
+Elapsed time in seconds: 263864 milliseconds
+===================extend over=======================
+cur_ns:179000  cur_n:192552335
+Elapsed time in seconds: 265598 milliseconds
+===================extend over=======================
+cur_ns:180000  cur_n:193629895
+Elapsed time in seconds: 267357 milliseconds
+===================extend over=======================
+cur_ns:181000  cur_n:194706836
+Elapsed time in seconds: 269095 milliseconds
+===================extend over=======================
+cur_ns:182000  cur_n:195781773
+Elapsed time in seconds: 270857 milliseconds
+===================extend over=======================
+cur_ns:183000  cur_n:196857697
+Elapsed time in seconds: 272618 milliseconds
+===================extend over=======================
+cur_ns:184000  cur_n:197935389
+Elapsed time in seconds: 274386 milliseconds
+===================extend over=======================
+cur_ns:185000  cur_n:199009271
+Elapsed time in seconds: 276167 milliseconds
+===================extend over=======================
+cur_ns:186000  cur_n:200084349
+Elapsed time in seconds: 277957 milliseconds
+===================extend over=======================
+cur_ns:187000  cur_n:201155885
+Elapsed time in seconds: 279690 milliseconds
+===================extend over=======================
+cur_ns:188000  cur_n:202233213
+Elapsed time in seconds: 281472 milliseconds
+===================extend over=======================
+cur_ns:189000  cur_n:203310201
+Elapsed time in seconds: 283247 milliseconds
+===================extend over=======================
+cur_ns:190000  cur_n:204385438
+Elapsed time in seconds: 285003 milliseconds
+===================extend over=======================
+cur_ns:191000  cur_n:205463198
+Elapsed time in seconds: 286820 milliseconds
+===================extend over=======================
+cur_ns:192000  cur_n:206539043
+Elapsed time in seconds: 288586 milliseconds
+===================extend over=======================
+cur_ns:193000  cur_n:207615874
+Elapsed time in seconds: 290361 milliseconds
+===================extend over=======================
+cur_ns:194000  cur_n:208690130
+Elapsed time in seconds: 292178 milliseconds
+===================extend over=======================
+cur_ns:195000  cur_n:209767969
+Elapsed time in seconds: 293954 milliseconds
+===================extend over=======================
+cur_ns:196000  cur_n:210843336
+Elapsed time in seconds: 295739 milliseconds
+===================extend over=======================
+cur_ns:197000  cur_n:211919387
+Elapsed time in seconds: 297573 milliseconds
+===================extend over=======================
+cur_ns:198000  cur_n:212997053
+Elapsed time in seconds: 299366 milliseconds
+===================extend over=======================
+cur_ns:199000  cur_n:214072702
+Elapsed time in seconds: 301184 milliseconds
+===================extend over=======================
+cur_ns:200000  cur_n:215146665
+Elapsed time in seconds: 303006 milliseconds
+===================extend over=======================
+cur_ns:201000  cur_n:216223551
+Elapsed time in seconds: 304766 milliseconds
+===================extend over=======================
+cur_ns:202000  cur_n:217298673
+Elapsed time in seconds: 306585 milliseconds
+===================extend over=======================
+cur_ns:203000  cur_n:218376118
+Elapsed time in seconds: 308398 milliseconds
+===================extend over=======================
+cur_ns:204000  cur_n:219450921
+Elapsed time in seconds: 310163 milliseconds
+===================extend over=======================
+cur_ns:205000  cur_n:220523604
+Elapsed time in seconds: 311973 milliseconds
+===================extend over=======================
+cur_ns:206000  cur_n:221601161
+Elapsed time in seconds: 313779 milliseconds
+===================extend over=======================
+cur_ns:207000  cur_n:222677950
+Elapsed time in seconds: 315560 milliseconds
+===================extend over=======================
+cur_ns:208000  cur_n:223750711
+Elapsed time in seconds: 317356 milliseconds
+===================extend over=======================
+cur_ns:209000  cur_n:224823381
+Elapsed time in seconds: 319181 milliseconds
+===================extend over=======================
+cur_ns:210000  cur_n:225900514
+Elapsed time in seconds: 321014 milliseconds
+===================extend over=======================
+cur_ns:211000  cur_n:226974478
+Elapsed time in seconds: 322839 milliseconds
+===================extend over=======================
+cur_ns:212000  cur_n:228055662
+Elapsed time in seconds: 324759 milliseconds
+===================extend over=======================
+cur_ns:213000  cur_n:229128475
+Elapsed time in seconds: 326664 milliseconds
+===================extend over=======================
+cur_ns:214000  cur_n:230202241
+Elapsed time in seconds: 328507 milliseconds
+===================extend over=======================
+cur_ns:215000  cur_n:231277752
+Elapsed time in seconds: 330277 milliseconds
+===================extend over=======================
+cur_ns:216000  cur_n:232353769
+Elapsed time in seconds: 332113 milliseconds
+===================extend over=======================
+cur_ns:217000  cur_n:233433376
+Elapsed time in seconds: 333951 milliseconds
+===================extend over=======================
+cur_ns:218000  cur_n:234505595
+Elapsed time in seconds: 335768 milliseconds
+===================extend over=======================
+cur_ns:219000  cur_n:235577770
+Elapsed time in seconds: 337610 milliseconds
+===================extend over=======================
+cur_ns:220000  cur_n:236654637
+Elapsed time in seconds: 339428 milliseconds
+===================extend over=======================
+cur_ns:221000  cur_n:237732120
+Elapsed time in seconds: 341291 milliseconds
+===================extend over=======================
+cur_ns:222000  cur_n:238808707
+Elapsed time in seconds: 343193 milliseconds
+===================extend over=======================
+cur_ns:223000  cur_n:239889009
+Elapsed time in seconds: 345021 milliseconds
+===================extend over=======================
+cur_ns:224000  cur_n:240964867
+Elapsed time in seconds: 346895 milliseconds
+===================extend over=======================
+cur_ns:225000  cur_n:242039705
+Elapsed time in seconds: 348780 milliseconds
+===================extend over=======================
+cur_ns:226000  cur_n:243116196
+Elapsed time in seconds: 350581 milliseconds
+===================extend over=======================
+cur_ns:227000  cur_n:244192565
+Elapsed time in seconds: 352355 milliseconds
+===================extend over=======================
+cur_ns:228000  cur_n:245268652
+Elapsed time in seconds: 354145 milliseconds
+===================extend over=======================
+cur_ns:229000  cur_n:246344538
+Elapsed time in seconds: 355938 milliseconds
+===================extend over=======================
+cur_ns:230000  cur_n:247422055
+Elapsed time in seconds: 357751 milliseconds
+===================extend over=======================
+cur_ns:231000  cur_n:248497075
+Elapsed time in seconds: 359542 milliseconds
+===================extend over=======================
+cur_ns:232000  cur_n:249571280
+Elapsed time in seconds: 361375 milliseconds
+===================extend over=======================
+cur_ns:233000  cur_n:250646030
+Elapsed time in seconds: 363188 milliseconds
+===================extend over=======================
+cur_ns:234000  cur_n:251718339
+Elapsed time in seconds: 364965 milliseconds
+===================extend over=======================
+cur_ns:235000  cur_n:252796774
+Elapsed time in seconds: 366797 milliseconds
+===================extend over=======================
+cur_ns:236000  cur_n:253868810
+Elapsed time in seconds: 368618 milliseconds
+===================extend over=======================
+cur_ns:237000  cur_n:254942510
+Elapsed time in seconds: 370414 milliseconds
+===================extend over=======================
+cur_ns:238000  cur_n:256017930
+Elapsed time in seconds: 372272 milliseconds
+===================extend over=======================
+cur_ns:239000  cur_n:257093118
+Elapsed time in seconds: 374106 milliseconds
+===================extend over=======================
+cur_ns:240000  cur_n:258169830
+Elapsed time in seconds: 375884 milliseconds
+===================extend over=======================
+cur_ns:241000  cur_n:259250201
+Elapsed time in seconds: 377728 milliseconds
+===================extend over=======================
+cur_ns:242000  cur_n:260326772
+Elapsed time in seconds: 379539 milliseconds
+===================extend over=======================
+cur_ns:243000  cur_n:261403358
+Elapsed time in seconds: 381365 milliseconds
+===================extend over=======================
+cur_ns:244000  cur_n:262476987
+Elapsed time in seconds: 383171 milliseconds
+===================extend over=======================
+cur_ns:245000  cur_n:263552733
+Elapsed time in seconds: 384992 milliseconds
+===================extend over=======================
+cur_ns:246000  cur_n:264629258
+Elapsed time in seconds: 386848 milliseconds
+===================extend over=======================
+cur_ns:247000  cur_n:265702042
+Elapsed time in seconds: 388655 milliseconds
+===================extend over=======================
+cur_ns:248000  cur_n:266777352
+Elapsed time in seconds: 390465 milliseconds
+===================extend over=======================
+cur_ns:249000  cur_n:267854417
+Elapsed time in seconds: 392306 milliseconds
+===================extend over=======================
+cur_ns:250000  cur_n:268930209
+Elapsed time in seconds: 394140 milliseconds
+===================extend over=======================
+cur_ns:251000  cur_n:270005523
+Elapsed time in seconds: 395978 milliseconds
+===================extend over=======================
+cur_ns:252000  cur_n:271084131
+Elapsed time in seconds: 397845 milliseconds
+===================extend over=======================
+cur_ns:253000  cur_n:272159204
+Elapsed time in seconds: 399689 milliseconds
+===================extend over=======================
+cur_ns:254000  cur_n:273232543
+Elapsed time in seconds: 401528 milliseconds
+===================extend over=======================
+cur_ns:255000  cur_n:274305435
+Elapsed time in seconds: 403371 milliseconds
+===================extend over=======================
+cur_ns:256000  cur_n:275382256
+Elapsed time in seconds: 405236 milliseconds
+===================extend over=======================
+cur_ns:257000  cur_n:276459235
+Elapsed time in seconds: 407130 milliseconds
+===================extend over=======================
+cur_ns:258000  cur_n:277531350
+Elapsed time in seconds: 409010 milliseconds
+===================extend over=======================
+cur_ns:259000  cur_n:278604992
+Elapsed time in seconds: 410843 milliseconds
+===================extend over=======================
+cur_ns:260000  cur_n:279681397
+Elapsed time in seconds: 412728 milliseconds
+===================extend over=======================
+cur_ns:261000  cur_n:280761071
+Elapsed time in seconds: 414588 milliseconds
+===================extend over=======================
+cur_ns:262000  cur_n:281838393
+Elapsed time in seconds: 416449 milliseconds
+===================extend over=======================
+cur_ns:263000  cur_n:282917309
+Elapsed time in seconds: 418285 milliseconds
+===================extend over=======================
+cur_ns:264000  cur_n:283999743
+Elapsed time in seconds: 420096 milliseconds
+===================extend over=======================
+cur_ns:265000  cur_n:285072848
+Elapsed time in seconds: 421976 milliseconds
+===================extend over=======================
+cur_ns:266000  cur_n:286148638
+Elapsed time in seconds: 423829 milliseconds
+===================extend over=======================
+cur_ns:267000  cur_n:287227935
+Elapsed time in seconds: 425677 milliseconds
+===================extend over=======================
+cur_ns:268000  cur_n:288303270
+Elapsed time in seconds: 427532 milliseconds
+===================extend over=======================
+cur_ns:269000  cur_n:289380075
+Elapsed time in seconds: 429405 milliseconds
+OnlineRlbwt object (0x7ffed6ab7740) printStatistics(1) BEGIN
+Len with endmarker = 289452819
+emPos_ = 0, em_ = 1
+DynRleForRlbwt object (0x7ffed6ab7740) printStatistics(1) BEGIN
+TotalLen = 289452818, #Runs = 2282315, Alphabet Size = 5
+BTreeNode arity kB = 32, BtmNode arity kBtmBM = 32, BtmNode arity kBtmBS = 8
+MTree bottom array size = 86106, capacity = 86528
+STree bottom array size = 346604, capacity = 347136
+Total: 35982360 bytes = 35139 KiB = 34.3155 MiB
+MTree: 1805536 bytes, OccuRate = 84.197 (= 100*89424/106208)
+ATree: 544 bytes, OccuRate = 18.75 (= 100*6/32)
+STree: 7274912 bytes, OccuRate = 84.1182 (= 100*359972/427936)
+BtmNodeM: 6122216 bytes = 5978.73 KiB = 5.8386 MiB, OccuRate = 82.8309 (= 100*2282316/2755392)
+BtmNodeS: 5558296 bytes = 5428.02 KiB = 5.3008 MiB, OccuRate = 82.3101 (= 100*2282320/2772832)
+BtmNode: 11680512 bytes = 11406.8 KiB = 11.1394 MiB, OccuRate = 82.5697 (= 100*4564636/5528224)
+Links: 15220832 bytes = 14864.1 KiB = 14.5157 MiB
+Samples: 0 bytes = 0 KiB = 0 MiB
+---------------- additional details ----------------
+Memory for weights: 4476112 bytes = 4371.2 KiB = 4.26875 MiB
+Over reserved: 53176 bytes = 51.9297 KiB = 0.0507126 MiB
+DynRleForRlbwt object (0x7ffed6ab7740) printStatistics(1) END
+OnlineRlbwt object (0x7ffed6ab7740) printStatistics(1) END

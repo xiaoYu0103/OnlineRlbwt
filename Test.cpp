@@ -17,7 +17,7 @@ int main(int argc, char *argv[])
 
     cmdline::parser parser;
     parser.add<std::string>("input", 'i', "input file name", true);
-    parser.add<std::string>("output", 'o', "output file name BWT", true);
+    parser.add<std::string>("output", 'o', "output file name BWT", false);
 
     parser.parse_check(argc, argv);
     const std::string in = parser.get<std::string>("input");
@@ -44,11 +44,11 @@ int main(int argc, char *argv[])
 
         if (uc == 10) // 如果遇到换行符，替换为0
         {
-            uc = 0;
+            uc = 1;
         }
         // std::cout << "optExtend : " << c << std::endl;
         rlbwt.optExtend(uint8_t(uc));
-        // rlbwt.printDetailInfo();
+        rlbwt.printDetailInfo();
     }
 
     ifs.close();

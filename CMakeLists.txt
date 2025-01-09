@@ -44,6 +44,11 @@ add_executable(Test Test.cpp)
 target_link_libraries(Test Basics)
 target_link_libraries(Test BTree)
 
+add_executable(OoptBWT OoptBWT.cpp)
+target_link_libraries(OoptBWT Basics)
+target_link_libraries(OoptBWT BTree)
+
+
 add_executable(OnlineRlbwt OnlineRlbwt.cpp)
 target_link_libraries(OnlineRlbwt Basics)
 target_link_libraries(OnlineRlbwt BTree)

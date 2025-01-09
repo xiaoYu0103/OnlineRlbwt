@@ -49,7 +49,7 @@ namespace itmmti
     public:
         OnlineRlbwt(
             const size_t initNumBtms, //!< Initial size of DynRle to reserve.
-            CharT em = 0              //!< End marker (default UINT64_MAX).
+            CharT em = 1              //!< End marker (default UINT64_MAX).
             ) : drle_(initNumBtms, 0),
                 emPos_(0),
                 em_(em)

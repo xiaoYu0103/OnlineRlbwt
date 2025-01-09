@@ -1,0 +1,24 @@
+===================extend over=======================
+Elapsed time in seconds: 122138 milliseconds
+OnlineRlbwt object (0x7ffd57848e20) printStatistics(1) BEGIN
+Len with endmarker = 76429834
+emPos_ = 0, em_ = 1
+DynRleForRlbwt object (0x7ffd57848e20) printStatistics(1) BEGIN
+TotalLen = 76429833, #Runs = 1690068, Alphabet Size = 6
+BTreeNode arity kB = 32, BtmNode arity kBtmBM = 32, BtmNode arity kBtmBS = 8
+MTree bottom array size = 63742, capacity = 64000
+STree bottom array size = 256290, capacity = 257024
+Total: 25887328 bytes = 25280.6 KiB = 24.6881 MiB
+MTree: 1331168 bytes, OccuRate = 84.527 (= 100*66188/78304)
+ATree: 544 bytes, OccuRate = 21.875 (= 100*7/32)
+STree: 5363296 bytes, OccuRate = 84.3592 (= 100*266143/315488)
+BtmNodeM: 4321648 bytes = 4220.36 KiB = 4.12144 MiB, OccuRate = 82.8569 (= 100*1690069/2039744)
+BtmNodeS: 4114456 bytes = 4018.02 KiB = 3.92385 MiB, OccuRate = 82.4298 (= 100*1690074/2050320)
+BtmNode: 8436104 bytes = 8238.38 KiB = 8.0453 MiB, OccuRate = 82.6428 (= 100*3380143/4090064)
+Links: 10756192 bytes = 10504.1 KiB = 10.2579 MiB
+Samples: 0 bytes = 0 KiB = 0 MiB
+---------------- additional details ----------------
+Memory for weights: 3104600 bytes = 3031.84 KiB = 2.96078 MiB
+Over reserved: 47022 bytes = 45.9199 KiB = 0.0448437 MiB
+DynRleForRlbwt object (0x7ffd57848e20) printStatistics(1) END
+OnlineRlbwt object (0x7ffd57848e20) printStatistics(1) END
